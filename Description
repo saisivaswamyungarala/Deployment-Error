@@ -1,0 +1,14 @@
+I have installed 2.9 version of jenkins in centos box.
+Added plugins Github authentication, Gitlab authencation, Deploy to a container and copy artifacts maunally and restarted jenkins. 
+Later created a Project with the name sample-project where i triying to get the code from github and want to build with Maven. Completed successfully.
+Then done archive the artifacts in the same project. Build was successfull.
+Uploaded images with the name as project-1-Image-1,2,3 and cosole outpu.
+
+Now i am trying to deploy the archived artifact to the tomcat conatiner which is in my another centos box.
+For this i have edited the tomcat users.xmls file as below.
+<role rolename="manager-gui"/>
+  <role rolename="admin-gui"/>
+  <role rolename="manager-script"/>
+  <user username="admin" password="password" roles="manager-gui,admin-gui,manager-script" />
+and remaing u can understand with uploaded screen shots as Porject-2-image-1,2,3..
+
