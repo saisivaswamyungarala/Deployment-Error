@@ -4,7 +4,7 @@ Later created a Project with the name sample-project where i triying to get the 
 Then done archive the artifacts in the same project. Build was successfull.
 Uploaded images with the name as project-1-Image-1,2,3 and cosole outpu.
 
-Now i am trying to deploy the archived artifact to the tomcat conatiner which is in my another centos box.
+Now i am trying to deploy the archived artifact to the tomcat conatiner which is in my another centos box with the project name Deployment.
 For this i have edited the tomcat users.xmls file as below.
 <role rolename="manager-gui"/>
   <role rolename="admin-gui"/>
